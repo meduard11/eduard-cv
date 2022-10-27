@@ -18,7 +18,7 @@ const App = () => (
   <>
     <NavBar> </NavBar>
 
-    <div className="lg:flex sch" id="idx-1">
+    <div className="flex sch" id="idx-1">
       <div className="mx-auto max-w-4xl px-5 my-24 relative">
         <div className="flex-col">
           <div className="absolute bg-maxblue h-2 w-44 -z-10 mt-6 ml-8 opacity-70"></div>
