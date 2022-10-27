@@ -25,7 +25,7 @@ export const NavBar = () => {
         <div className="m-12 mx-6 text-5xl font-light text-center">
           Eduard Mihaila
         </div>
-        <div className="lg:flex mx-auto lg:mr-12 md:mr-12 sm:mr-0 md:flex-wrap">
+        <div className="lg:flex mx-auto lg:mr-12 md:mr-12 sm:mr-0 md:flex-wrap mt-4 mb-4">
           <NavBarItem
             color={BLUE}
             desc="About me"
