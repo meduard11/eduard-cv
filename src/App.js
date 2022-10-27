@@ -91,44 +91,45 @@ const App = () => (
     </div>
 
     <div className="sch flex bg-grr text-whit min-w-min w-full" id="idx-4">
-      <div className="mx-72 m-12 flex">
+      <div className="mx-72 m-12 flex text-center">
         <div className="w-1/2 flex-col mx-20">
-          <div className="absolute bg-oruby3 h-3 w-40  mt-14 ml-8 opacity-90"></div>
+          <div className="absolute bg-oruby3 h-3 w-36  mt-14 ml-24 opacity-90"></div>
           <h1 className="font-bold text-4xl m-8 z-0 relative"> Langues</h1>
-          <h2 className="ml-8 text-xl mt-4 font-bold "> French </h2>
+          <h2 className="text-xl mt-12 font-bold "> French </h2>
 
-          <div className="my-2 absolute bg-oruby3 h-4 w-52 ml-8 opacity-90"></div>
+          <div className="my-4 absolute bg-oruby3 h-4 w-52 ml-16 opacity-90 rounded-sm"></div>
 
-          <h2 className="ml-8 text-xl mt-9 font-bold ">Romanian</h2>
+          <h2 className="text-xl mt-16 font-bold ">Romanian</h2>
 
-          <div className="my-2 absolute bg-whit h-4 w-52 ml-8 opacity-90"></div>
-          <div className="my-2 absolute bg-oruby3 h-4 w-48 ml-8 opacity-90"></div>
+          <div className="my-4 absolute bg-whit h-4 w-52 ml-16 opacity-90 rounded-sm"></div>
+          <div className="my-4 absolute bg-oruby3 h-4 w-48 ml-16 opacity-90 rounded-sm"></div>
 
-          <h2 className="ml-8 text-xl mt-9 font-bold "> English </h2>
+          <h2 className="text-xl mt-16 font-bold "> English </h2>
 
-          <div className="my-2 absolute bg-whit h-4 w-52 ml-8 opacity-90"></div>
-          <div className="my-2 absolute bg-oruby3 h-4 w-44 ml-8 opacity-90"></div>
+          <div className="my-4 absolute bg-whit h-4 w-52 ml-16 opacity-90 rounded-sm"></div>
+          <div className="my-4 absolute bg-oruby3 h-4 w-40 ml-16 opacity-90 rounded-sm"></div>
 
-          <h2 className="ml-8 text-xl mt-9 font-bold "> Nederlands </h2>
+          <h2 className="text-xl mt-16 font-bold"> Nederlands </h2>
 
-          <div className="my-2 absolute bg-whit h-4 w-52 ml-8 opacity-90"></div>
-          <div className="my-2 absolute bg-oruby3 h-4 w-28 ml-8 opacity-90"></div>
+          <div className="my-4 absolute bg-whit h-4 w-52 ml-16 opacity-90 rounded-sm"></div>
+          <div className="my-4 absolute bg-oruby3 h-4 w-20 ml-16 opacity-90 rounded-sm"></div>
         </div>
+
         <div className="flex-col mx-16">
-          <div className="absolute bg-corn3 h-3 w-40 mt-14 ml-8 opacity-90"></div>
-          <h1 className="font-bold text-4xl m-8 z-0 relative"> Hobbies </h1>
-          <h2 className="ml-8 font-bold text-xl z-0 relative ">Formula 1</h2>
-          <p className="font-light mt-2 ml-8">Max Verstappen fan here</p>
-          <h2 className="ml-8 text-xl mt-4 font-bold"> VolleyBall </h2>
-          <p className="font-light ml-8 mt-2 ">
+          <div className="absolute bg-corn3 h-3 w-36 mt-14 ml-20 opacity-90"></div>
+          <h1 className="font-bold text-4xl mt-8 z-0 relative">Hobbies</h1>
+          <h2 className="font-bold text-xl mt-8 z-0 relative ">Formula 1</h2>
+          <p className="font-light mt-4">Max Verstappen fan here</p>
+          <h2 className="text-xl mt-8 font-bold"> VolleyBall </h2>
+          <p className="font-light mt-4">
             I love playing Volleyball with friends from time to time
           </p>
-          <h2 className="ml-8 text-xl mt-4 font-bold"> Films </h2>
-          <p className="font-light ml-8 mt-2">
+          <h2 className="text-xl mt-8 font-bold"> Films </h2>
+          <p className="font-light mt-4">
             Love watching films (The Prestige's my favourite one)
           </p>
-          <h2 className="ml-8 text-xl mt-4 font-bold "> Video Games </h2>
-          <p className="font-light ml-8 mt-2">
+          <h2 className="text-xl mt-8 font-bold "> Video Games </h2>
+          <p className="font-light mt-4">
             LoL, Rainbow 6, mostly games where teamplay is necessary
           </p>
         </div>
