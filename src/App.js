@@ -86,13 +86,13 @@ const App = () => (
         <ExperienceBox
           job_title="Sciences informatiques - ULB"
           start_d="September 2019"
-          end_d="Aout 2020"
+          end_d="August 2020"
           job_description="Algorithms & Data Structure - Python - C++ - Assembly"
         ></ExperienceBox>
         <ExperienceBox
           job_title="Sacré-Coeur de Jette - Secondaire"
-          start_d="Septembre 2012 ??"
-          end_d="Aout 2019"
+          start_d="September 2012"
+          end_d="July 2019"
           job_description="Mathematics, Sciences and English option"
         ></ExperienceBox>
         <Arrow dark={false} index="idx-4" color="#8F3985"></Arrow>
