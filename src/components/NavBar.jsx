@@ -22,10 +22,10 @@ export const NavBar = () => {
   return (
     <>
       <div className="flex bg-grr text-whit phonescreen">
-        <div className="m-12 mx-6 text-5xl font-light">
+        <div className="m-12 mx-6 text-5xl font-light text-center">
           Eduard Mihaila
         </div>
-        <div className="lg:flex mx-auto mr-12 md:flex-wrap">
+        <div className="lg:flex mx-auto lg:mr-12 md:mr-12 sm:mr-0 md:flex-wrap">
           <NavBarItem
             color={BLUE}
             desc="About me"
