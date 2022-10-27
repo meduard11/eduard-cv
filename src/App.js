@@ -29,20 +29,25 @@ const App = () => (
       <div className="mx-72 my-12 relative">
         <div className="w-full">
           <div className="flex-col">
-            <div className="absolute bg-rajah h-2 w-52  mt-7 ml-8 opacity-90"></div>
-            <h1 className="font-bold text-4xl m-8 z-0 relative"> Experience</h1>
+            <div className="absolute bg-rajah h-2 w-52 mt-7 ml-8 opacity-90"></div>
+
+            <h1 className="font-bold text-4xl m-8 z-0 relative text-whit">
+              Experience
+            </h1>
           </div>
           <ExperienceBox
             job_title="Front-end Developer Digitalu"
             start_d="August 2021"
             end_d="September 2021"
             job_description="React JS and Typescript frontend developement from Figma design cheets full-time."
+            text_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
             job_title="Blend editor"
             start_d="August 2021"
             end_d="September 2021"
             job_description="Creation and edition of blends (Blendr.io | Saas Automation Application) for Qollabi, ponctual-time job."
+            text_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
             job_title="Technicien de maintenance maison de retraite"
@@ -50,6 +55,7 @@ const App = () => (
             end_d="August 2022"
             job_description="Je m'occupais de l'entretien de maintenance de la maison 
         de retraite, mes taches comprenaient : - Trouver une solution à la panne technique qu'il pourrait y avoir dans le batiment (porte/serrure bloquée, appareil en panne, interrupteur ou lampe en panne, meuble cassé, etc.) - Reception des livraisons et rangement dans les réserves. - Gestion du jardin. J'étais seul tout au long de la journée et devait organiser mes taches moi-même."
+            text_color="text-rajah"
           ></ExperienceBox>
         </div>
         <Arrow dark={true} index="idx-3" color="#FFAD69"></Arrow>
@@ -89,46 +95,39 @@ const App = () => (
         <div className="w-1/2 flex-col mx-20">
           <div className="absolute bg-oruby3 h-3 w-40  mt-14 ml-8 opacity-90"></div>
           <h1 className="font-bold text-4xl m-8 z-0 relative"> Langues</h1>
-          <h2 className="ml-8 text-xl mt-4 font-bold text-oruby3"> French </h2>
-          <p className="font-light ml-8 mt-2">Native</p>
-          <h2 className="ml-8 text-xl mt-4 font-bold text-oruby3">
-            {" "}
-            Romanian{" "}
-          </h2>
-          <p className="font-light ml-8 mt-2">Native</p>
-          <h2 className="ml-8 text-xl mt-4 font-bold text-oruby3"> English </h2>
-          <p className="font-light ml-8 mt-2">Basic and techical</p>
-          <h2 className="ml-8 text-xl mt-4 font-bold text-oruby3">
-            {" "}
-            Nederlands{" "}
-          </h2>
-          <p className="font-light ml-8 mt-2">
-            Basics, need to practise to be fluent
-          </p>
+          <h2 className="ml-8 text-xl mt-4 font-bold "> French </h2>
+
+          <div className="my-2 absolute bg-oruby3 h-4 w-52 ml-8 opacity-90"></div>
+
+          <h2 className="ml-8 text-xl mt-9 font-bold ">Romanian</h2>
+
+          <div className="my-2 absolute bg-whit h-4 w-52 ml-8 opacity-90"></div>
+          <div className="my-2 absolute bg-oruby3 h-4 w-48 ml-8 opacity-90"></div>
+
+          <h2 className="ml-8 text-xl mt-9 font-bold "> English </h2>
+
+          <div className="my-2 absolute bg-whit h-4 w-52 ml-8 opacity-90"></div>
+          <div className="my-2 absolute bg-oruby3 h-4 w-44 ml-8 opacity-90"></div>
+
+          <h2 className="ml-8 text-xl mt-9 font-bold "> Nederlands </h2>
+
+          <div className="my-2 absolute bg-whit h-4 w-52 ml-8 opacity-90"></div>
+          <div className="my-2 absolute bg-oruby3 h-4 w-28 ml-8 opacity-90"></div>
         </div>
         <div className="flex-col mx-16">
           <div className="absolute bg-corn3 h-3 w-40 mt-14 ml-8 opacity-90"></div>
           <h1 className="font-bold text-4xl m-8 z-0 relative"> Hobbies </h1>
-          <h2 className="ml-8 font-bold text-xl z-0 relative text-corn3">
-            {" "}
-            Formula 1{" "}
-          </h2>
+          <h2 className="ml-8 font-bold text-xl z-0 relative ">Formula 1</h2>
           <p className="font-light mt-2 ml-8">Max Verstappen fan here</p>
-          <h2 className="ml-8 text-xl mt-4 text-corn3 font-bold">
-            {" "}
-            VolleyBall{" "}
-          </h2>
+          <h2 className="ml-8 text-xl mt-4 font-bold"> VolleyBall </h2>
           <p className="font-light ml-8 mt-2 ">
             I love playing Volleyball with friends from time to time
           </p>
-          <h2 className="ml-8 text-xl mt-4 font-bold text-corn3"> Films </h2>
+          <h2 className="ml-8 text-xl mt-4 font-bold"> Films </h2>
           <p className="font-light ml-8 mt-2">
             Love watching films (The Prestige's my favourite one)
           </p>
-          <h2 className="ml-8 text-xl mt-4 font-bold text-corn3">
-            {" "}
-            Video Games{" "}
-          </h2>
+          <h2 className="ml-8 text-xl mt-4 font-bold "> Video Games </h2>
           <p className="font-light ml-8 mt-2">
             LoL, Rainbow 6, mostly games where teamplay is necessary
           </p>
