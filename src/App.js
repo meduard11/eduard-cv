@@ -8,11 +8,11 @@ const PART_1 = `I'm Eduard Mihaila, 21 years old, a web development student look
 const PART_2 = `
 A bit more about my personal life: I am the youngest of three brothers (22 and 23 years old), I am of Romanian origin and I am a rather sociable person. I am also curious and I like to learn new (mindblowing) things.`;
 
-const PART_3 = `I love everything about computers and am open to learn new things, that's what I like the most, it's progress never stops and you never get bored.`;
+const PART_3 = `I love everything about computers and am open to learn new things, that's what I like the most, it's progress never stops and you never get bored. I am also somewhat creative (this design is not a template nor inspired by another site) but I don't feel the need for an artistic job as these needs are already fulfilled by my hobbies`;
 
 const PART_4 = `The internship must take place every working day (Monday to Friday inclusive) of
 every week starting week 1 of the 2nd
-(February 1, 2023) for 15 weeks`;
+(February 1, 2023) for 15 weeks.`;
 
 const App = () => (
   <>
@@ -56,15 +56,14 @@ const App = () => (
             job_title="Blend editor"
             start_d="August 2021"
             end_d="September 2021"
-            job_description="Creation and edition of blends (Blendr.io | Saas Automation Application) for Qollabi, ponctual-time job."
+            job_description="Creation and edition of blends (Blendr.io | Saas Automation Application) for Qollabi"
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
             job_title="Technicien de maintenance maison de retraite"
             start_d="July 2022"
             end_d="August 2022"
-            job_description="Je m'occupais de l'entretien de maintenance de la maison 
-        de retraite, mes taches comprenaient : - Trouver une solution à la panne technique qu'il pourrait y avoir dans le batiment (porte/serrure bloquée, appareil en panne, interrupteur ou lampe en panne, meuble cassé, etc.) - Reception des livraisons et rangement dans les réserves. - Gestion du jardin. J'étais seul tout au long de la journée et devait organiser mes taches moi-même."
+            job_description="I was in charge of the maintenance of the retirement home, my tasks included : - Finding a solution to the technical breakdown that there could be in the building (blocked door/lock, broken appliance, broken switch or lamp, broken furniture, etc.) - Receiving deliveries and storing in the storerooms. - Management of the garden. I was alone throughout the day and had to organize my tasks myself."
             title_color="text-rajah"
           ></ExperienceBox>
         </div>
@@ -156,7 +155,8 @@ const App = () => (
 
             <h2 className="text-xl mt-8 font-bold "> Video Games </h2>
             <p className="font-light mt-4 lg:text-base sm:text-sm">
-              LoL, Rainbow 6, mostly games where teamplay is necessary
+              League of Legends, Rainbow 6, mostly games where teamplay is
+              necessary
             </p>
           </div>
         </div>
