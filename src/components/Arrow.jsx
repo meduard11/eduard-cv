@@ -10,11 +10,12 @@ export const Arrow = ({ index, color, dark }) => {
 
     <div
       className="arrow mx-auto" style={{
+        borderTop: "1vmin solid " + (dark ? "white" : "black"),
+        borderRight: "1vmin solid " + (dark ? "white" : "black"),
         borderColor : hover ? color : (dark ? "white" : "black"),
         boxShadow: (hover ? ( dark ? "0.5vmin -0.5vmin 0 white" : "0.5vmin -0.5vmin 0 black"): " "),
-        color : dark ? "black" : "white",
-        borderTop: "1vmin solid " + (dark ? "white" : "black"),
-        borderRight: "1vmin solid " + (dark ? "white" : "black")
+        color : dark ? "black" : "white"
+        
     }}
     ></div>
     </div>

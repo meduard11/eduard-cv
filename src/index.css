@@ -30,8 +30,6 @@ html {
   width: 4vmin;
   height: 4vmin;
   background: transparent;
-  border-top: 1vmin solid black;
-  border-right: 1vmin solid black;
   box-shadow: 0 0 0 lightgray;
   transition: all 200ms ease;
 }
