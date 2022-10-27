@@ -5,7 +5,7 @@ export const NavBarItem = ({ desc, onClick, color }) => {
 
   return (
     <div
-      className="my-auto h-auto mx-4 flex w-1/4 text-light text-center"
+      className="my-auto h-auto mx-4 flex text-light text-center w-max"
       onClick={onClick}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}

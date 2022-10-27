@@ -2,7 +2,7 @@
 
 export const FooterItem = ({image, desc, onClick, link}) => {
     return (
-        <div className="mt-16 h-auto mx-4 flex w-1/4 text-light text-center" onClick={onClick}> 
+        <div className="mt-16 h-auto mx-16 flex text-light text-center" onClick={onClick}> 
             
             { image? 
             <img className="m-2 h-6 w-6" src={image} alt=""/>

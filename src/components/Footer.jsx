@@ -11,7 +11,7 @@ export const Footer = () => {
     return (
         <> 
             <div className="flex">                
-                <div className="flex m-32 mt-14 w-full text-white font-light" id="idx-5"> 
+                <div className="gap-4 flex-wrap flex m-24 mt-14 w-max mx-auto text-white font-light" id="idx-5"> 
                     <FooterItem image={mail}  desc="emihaila101@gmail.com"/>
                     <FooterItem image={phone} desc="+32485115406"/>
                     <FooterItem image={insta} desc="eduardmihaila" link={true}/>
