@@ -72,3 +72,26 @@ html {
   z-index: -1;
   background: #61dafb;
 }
+
+@media (max-width: 800px) {
+  .cunderline2::after {
+    height: 0.4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .cunderline::after {
+    height: 0.4rem;
+  }
+}
+@media (max-width: 500px) {
+  .cunderline2::after {
+    height: 0.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .cunderline::after {
+    height: 0.2rem;
+  }
+}
