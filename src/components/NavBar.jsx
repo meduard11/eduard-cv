@@ -21,11 +21,11 @@ export const NavBar = () => {
 
   return (
     <>
-      <div className="flex bg-grr text-whit max-w-screen over-flow-x-auto">
-        <div className="m-12 w-1/2 mx-6 text-5xl font-light">
+      <div className="flex bg-grr text-whit phonescreen">
+        <div className="m-12 mx-6 text-5xl font-light">
           Eduard Mihaila
         </div>
-        <div className="flex mx-6 sm:flex-wrap">
+        <div className="lg:flex mx-auto mr-12 md:flex-wrap">
           <NavBarItem
             color={BLUE}
             desc="About me"

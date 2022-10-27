@@ -95,3 +95,9 @@ html {
     height: 0.2rem;
   }
 }
+
+@media (max-width: 450px) {
+  .phonescreen {
+    flex-wrap: wrap;
+  }
+}
