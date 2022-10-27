@@ -89,13 +89,19 @@ const App = () => (
         <div className="w-1/2 flex-col mx-20">
           <div className="absolute bg-oruby3 h-3 w-40  mt-14 ml-8 opacity-90"></div>
           <h1 className="font-bold text-4xl m-8 z-0 relative"> Langues</h1>
-          <h2 className="ml-8 text-xl mt-4"> French </h2>
+          <h2 className="ml-8 text-xl mt-4 font-bold text-oruby3"> French </h2>
           <p className="font-light ml-8 mt-2">Native</p>
-          <h2 className="ml-8 text-xl mt-4"> Romanian </h2>
+          <h2 className="ml-8 text-xl mt-4 font-bold text-oruby3">
+            {" "}
+            Romanian{" "}
+          </h2>
           <p className="font-light ml-8 mt-2">Native</p>
-          <h2 className="ml-8 text-xl mt-4"> English </h2>
+          <h2 className="ml-8 text-xl mt-4 font-bold text-oruby3"> English </h2>
           <p className="font-light ml-8 mt-2">Basic and techical</p>
-          <h2 className="ml-8 text-xl mt-4"> Nederlands </h2>
+          <h2 className="ml-8 text-xl mt-4 font-bold text-oruby3">
+            {" "}
+            Nederlands{" "}
+          </h2>
           <p className="font-light ml-8 mt-2">
             Basics, need to practise to be fluent
           </p>
@@ -103,17 +109,26 @@ const App = () => (
         <div className="flex-col mx-16">
           <div className="absolute bg-corn3 h-3 w-40 mt-14 ml-8 opacity-90"></div>
           <h1 className="font-bold text-4xl m-8 z-0 relative"> Hobbies </h1>
-          <h2 className="ml-8 font-bold text-xl"> Formula 1 </h2>
+          <h2 className="ml-8 font-bold text-xl z-0 relative text-corn3">
+            {" "}
+            Formula 1{" "}
+          </h2>
           <p className="font-light mt-2 ml-8">Max Verstappen fan here</p>
-          <h2 className="ml-8 text-xl mt-4"> VolleyBall </h2>
-          <p className="font-light ml-8 mt-2">
+          <h2 className="ml-8 text-xl mt-4 text-corn3 font-bold">
+            {" "}
+            VolleyBall{" "}
+          </h2>
+          <p className="font-light ml-8 mt-2 ">
             I love playing Volleyball with friends from time to time
           </p>
-          <h2 className="ml-8 text-xl mt-4"> Films </h2>
+          <h2 className="ml-8 text-xl mt-4 font-bold text-corn3"> Films </h2>
           <p className="font-light ml-8 mt-2">
             Love watching films (The Prestige's my favourite one)
           </p>
-          <h2 className="ml-8 text-xl mt-4"> Video Games </h2>
+          <h2 className="ml-8 text-xl mt-4 font-bold text-corn3">
+            {" "}
+            Video Games{" "}
+          </h2>
           <p className="font-light ml-8 mt-2">
             LoL, Rainbow 6, mostly games where teamplay is necessary
           </p>
