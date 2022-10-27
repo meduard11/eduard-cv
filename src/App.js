@@ -2,29 +2,25 @@ import { Arrow } from "./components/Arrow";
 import { DescriptionBox } from "./components/DescriptionBox";
 import { ExperienceBox } from "./components/ExperienceBox";
 import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
+import { NavBar } from "./components/NavBar";
 
 const ABOUT_ME =
   "Je suis un étudiant en informatique de 20 ans qui est à la recherche d’un stage d’observation de 2 jours. Je suis quelqu’un de calme, ponctuel et assidu dans le travail. J’ai aussi le gout du travail bien fait. Mes années d’études ainsi que mes récentes expériences professionelles m’ont appris à être rigoureux, discipliné et curieux. ";
-const HOBBIES = "";
 
 const App = () => (
   <>
     <div className="text-xl">
-      <Header> </Header>
+      <NavBar> </NavBar>
     </div>
 
-    <div className="w-full flex-col min-w-min sch" id="idx-1">
-      <div className="mx-72 m-12">
-        <div className="w-1/2 flex-col">
-          <div className="absolute bg-maxblue h-2 w-44 -z-10 mt-5 ml-8 opacity-50"></div>
-          <div className="absolute bg-maxblue h-2 w-48 -z-10 mt-7 ml-8 opacity-70"></div>
-          <h1 className="font-bold text-4xl m-8"> About me</h1>
-        </div>
+    <div className="w-full flex sch" id="idx-1">
+      <div className="mx-72 my-12 relative">
+        <div className="absolute bg-maxblue h-2 w-44 -z-10 mt-14 ml-8 opacity-70"></div>
+        <h1 className="font-bold text-4xl m-8"> About me</h1>
 
         <DescriptionBox text={ABOUT_ME}></DescriptionBox>
       </div>
-      <div className="mt-12">
+      <div className="abs-center bottom-12">
         <Arrow dark={false} index="idx-2" color="#62B6CB"></Arrow>
       </div>
     </div>
@@ -63,27 +59,26 @@ const App = () => (
     <div className="flex min-w-min w-full sch" id="idx-3">
       <div className="mx-72 m-12">
         <div className="w-1/2 flex-col">
-          <div className="absolute bg-violet h-2 w-48 -z-10 mt-5 ml-8 opacity-50"></div>
-          <div className="absolute bg-violet h-2 w-52 -z-10 mt-7 ml-8 opacity-70"></div>
+          <div className="absolute bg-violet h-2 w-48 -z-10 mt-7 ml-8 opacity-70"></div>
           <h1 className="font-bold text-4xl m-8"> Formation </h1>
         </div>
         <ExperienceBox
           job_title="Informatique de gestion - Paul Lambin"
           start_d="September 2020"
           end_d="Now"
-          job_description="Compétences enseignées : - Html & Css - PHP - Python - Java - Javascript - Flutter - Kotlin - .NET - C - C# - Linux - Azure Devops - Assembly - Agile - Spring - React Js - Express Js - Machine Learning (Python Scikit-learn) - Sécurité web bases - UML - Anglais"
+          job_description="Algorithms and Data Structures - Html & Css - PHP - PostgreSQL - Python - Java - Java Spring - Javascript  - React Js - Express Js - Flutter - Kotlin - .NET - C - C# - Assembly - Machine Learning (Python Scikit-learn) -  UML - Agile Methodology - Linux - Azure Devops "
         ></ExperienceBox>
         <ExperienceBox
           job_title="Sciences informatiques - ULB"
           start_d="September 2019"
           end_d="Aout 2020"
-          job_description="Compétences enseignées : - Python - C++ - Assembly"
+          job_description="Python - C++ - Assembly"
         ></ExperienceBox>
         <ExperienceBox
           job_title="Sacré-Coeur de Jette - Secondaire"
           start_d="Septembre 2012 ??"
           end_d="Aout 2019"
-          job_description="Options sciences - math - anglais"
+          job_description="Mathematics, Sciences and English option"
         ></ExperienceBox>
         <Arrow dark={false} index="idx-4" color="#8F3985"></Arrow>
       </div>
@@ -91,38 +86,38 @@ const App = () => (
 
     <div className="sch flex bg-grr text-whit min-w-min w-full" id="idx-4">
       <div className="mx-72 m-12 flex">
-        <div className="w-1/2 flex-col">
+        <div className="w-1/2 flex-col mx-20">
           <div className="absolute bg-oruby3 h-3 w-40  mt-14 ml-8 opacity-90"></div>
-
           <h1 className="font-bold text-4xl m-8 z-0 relative"> Langues</h1>
-          <ExperienceBox
-            job_title=" -- Français -- "
-            job_description="Langue natale"
-          ></ExperienceBox>
-          <ExperienceBox
-            job_title=" -- Roumain -- "
-            job_description="Langue natale"
-          ></ExperienceBox>
-          <ExperienceBox
-            job_title=" -- Anglais -- "
-            job_description="Basics and technical english"
-          ></ExperienceBox>
-          <ExperienceBox
-            job_title=" -- Néerlandais -- "
-            job_description="Basics need some practice to be fluent"
-          ></ExperienceBox>
+          <h2 className="ml-8 text-xl mt-4"> French </h2>
+          <p className="font-light ml-8 mt-2">Native</p>
+          <h2 className="ml-8 text-xl mt-4"> Romanian </h2>
+          <p className="font-light ml-8 mt-2">Native</p>
+          <h2 className="ml-8 text-xl mt-4"> English </h2>
+          <p className="font-light ml-8 mt-2">Basic and techical</p>
+          <h2 className="ml-8 text-xl mt-4"> Nederlands </h2>
+          <p className="font-light ml-8 mt-2">
+            Basics, need to practise to be fluent
+          </p>
         </div>
-        <div className="flex-col ml-32">
+        <div className="flex-col mx-16">
           <div className="absolute bg-corn3 h-3 w-40 mt-14 ml-8 opacity-90"></div>
           <h1 className="font-bold text-4xl m-8 z-0 relative"> Hobbies </h1>
-          <p className="font-light ml-8 mt-2"> Formula 1 </p>
-          <p className="font-light ml-8 mt-2"> Volleyball</p>
-          <p className="font-light ml-8 mt-2"> Anime </p>
-          <p className="font-light ml-8 mt-2"> Cinema </p>
+          <h2 className="ml-8 font-bold text-xl"> Formula 1 </h2>
+          <p className="font-light mt-2 ml-8">Max Verstappen fan here</p>
+          <h2 className="ml-8 text-xl mt-4"> VolleyBall </h2>
+          <p className="font-light ml-8 mt-2">
+            I love playing Volleyball with friends from time to time
+          </p>
+          <h2 className="ml-8 text-xl mt-4"> Films </h2>
+          <p className="font-light ml-8 mt-2">
+            Love watching films (The Prestige's my favourite one)
+          </p>
+          <h2 className="ml-8 text-xl mt-4"> Video Games </h2>
+          <p className="font-light ml-8 mt-2">
+            LoL, Rainbow 6, mostly games where teamplay is necessary
+          </p>
         </div>
-      </div>
-      <div>
-        <Arrow dark={true} index="idx-5" color="#FF6A6A"></Arrow>
       </div>
     </div>
 

@@ -15,7 +15,7 @@ html {
   align-items: center;
   justify-content: center;
   position: relative;
-  transition: 0.7s;
+  transition: 0.5s;
   color: white;
 }
 
@@ -45,4 +45,10 @@ html {
   transform: translate(-40%, -60%);
   width: 200%;
   height: 200%;
+}
+
+.abs-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
 }

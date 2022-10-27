@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const HeaderItem = ({ desc, onClick, color }) => {
+export const NavBarItem = ({ desc, onClick, color }) => {
   const [hover, setHover] = useState(false);
 
   return (
