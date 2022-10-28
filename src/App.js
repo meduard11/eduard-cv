@@ -49,7 +49,7 @@ const App = () => (
             job_title="Front-end Developer Digitalu"
             start_d="August 2021"
             end_d="September 2021"
-            job_description="React JS and Typescript frontend developement from Figma design cheets full-time."
+            job_description="React JS and Typescript frontend developement from Figma design sheets full-time."
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
