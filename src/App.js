@@ -8,7 +8,7 @@ const PART_1 = `I'm Eduard Mihaila, 21 years old, a web development student look
 const PART_2 = `
 A bit more about my personal life: I am the youngest of three brothers (22 and 23 years old), I am of Romanian origin and I am a rather sociable person. I am also curious and I like to learn new (mindblowing) things.`;
 
-const PART_3 = `I love everything about computers and am open to learn new things, that's what I like the most, it's progress never stops and you never get bored. I am also somewhat creative (this design is not a template nor inspired by another site) but I don't feel the need for an artistic job as these needs are already fulfilled by my hobbies`;
+const PART_3 = `I love everything about computers and am open to learn new things, that's what I like the most, because progress never stops and you never get bored. I am also somewhat creative (this design is not a template nor inspired by another site) but I don't feel the need for an artistic job as these needs are already fulfilled by my hobbies`;
 
 const PART_4 = `The internship must take place every working day (Monday to Friday inclusive) of
 every week starting week 1 of the 2nd
@@ -20,13 +20,13 @@ const App = () => (
 
     <div className="flex sch" id="idx-1">
       <div className="mx-auto max-w-4xl px-5 my-8 relative">
-        <div className="flex-col">
+        <div className="flex-col justify-center">
           <div className="absolute bg-maxblue h-2 w-44 -z-10 mt-6 ml-8 opacity-70"></div>
-          <h1 className="font-bold text-4xl m-8"> About me</h1>
-          <p className="font-light text-lg ml-8">{PART_1}</p>
-          <p className="font-light text-lg ml-8 mt-4">{PART_2}</p>
-          <p className="font-light text-lg ml-8 mt-4">{PART_3}</p>
-          <p className="font-light text-lg ml-8 mt-4">{PART_4}</p>
+          <h1 className="font-bold text-4xl m-8 text-left"> About me</h1>
+          <p className="font-light text-lg lg:ml-8 sm:mx-auto">{PART_1}</p>
+          <p className="font-light text-lg lg:ml-8 sm:mx-auto mt-4">{PART_2}</p>
+          <p className="font-light text-lg lg:ml-8 sm:mx-auto mt-4">{PART_3}</p>
+          <p className="font-light text-lg lg:ml-8 sm:mx-auto mt-4">{PART_4}</p>
 
           <div className="mt-8">
             <Arrow dark={false} index="idx-2" color="#62B6CB"></Arrow>
@@ -63,7 +63,7 @@ const App = () => (
             job_title="Technicien de maintenance maison de retraite"
             start_d="July 2022"
             end_d="August 2022"
-            job_description="I was in charge of the maintenance of the retirement home, my tasks included : - Finding a solution to the technical breakdown that there could be in the building (blocked door/lock, broken appliance, broken switch or lamp, broken furniture, etc.) - Receiving deliveries and storing in the storerooms. - Management of the garden. I was alone throughout the day and had to organize my tasks myself."
+            job_description="I was in charge of the maintenance of a retirement home, my tasks included : - Finding a solution to the technical breakdown that there could be in the building (blocked door/lock, broken appliance, broken switch or lamp, broken furniture, etc.) - Receiving deliveries and storing in the storerooms. - Management of the garden. I was alone throughout the day and had to organize my tasks myself."
             title_color="text-rajah"
           ></ExperienceBox>
         </div>
@@ -117,9 +117,8 @@ const App = () => (
               <div className="my-4 bg-crayola h-4 m opacity-90 rounded-sm relative w-3/4"></div>
             </div>
             <h2 className="lg:text-xl sm:text-sm mt-12 font-bold">
-              {" "}
-              Nederlands{" "}
-            </h2>{" "}
+              Nederlands
+            </h2>
             <div className="my-4 bg-whit h-4 m opacity-90 rounded-sm relative w-full mx-auto">
               <div className="my-4 bg-crayola h-4 m opacity-90 rounded-sm relative w-2/5"></div>
             </div>
@@ -137,7 +136,7 @@ const App = () => (
             </p>
             <h2 className="lg:text-xl sm:text-sm mt-8 font-bold "> Music </h2>
             <p className="font-light mt-4 lg:text-base sm:text-sm">
-              Playing Euphonium in a brass band since I am 12 years old, also
+              Playing Euphonium in a brass band since I was 12 years old, also
               plays bass guitar
             </p>
             <h2 className="lg:text-xl lg:base sm:text-sm mt-8 font-bold">
@@ -148,9 +147,9 @@ const App = () => (
               I love playing Volleyball with friends from time to time
             </p>
 
-            <h2 className="lg:text-xl sm:text-sm mt-8 font-bold"> Films </h2>
+            <h2 className="lg:text-xl sm:text-sm mt-8 font-bold"> Movies </h2>
             <p className="font-light mt-4 lg:text-base sm:text-sm">
-              Love watching films (The Prestige's my favourite one)
+              Love watching movies (The Prestige's my favourite one)
             </p>
           </div>
         </div>
