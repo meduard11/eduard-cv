@@ -5,7 +5,7 @@ export const Arrow = ({ index, color, dark }) => {
   const [hover, setHover] = useState(false);
   return (
     //p-12 so cursor doesn't need to be precise
-    <div className="p-12" onClick={() => scrollHandler(index)}
+    <div className="p-6" onClick={() => scrollHandler(index)}
     onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
 
     <div

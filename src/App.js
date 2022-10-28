@@ -19,7 +19,7 @@ const App = () => (
     <NavBar> </NavBar>
 
     <div className="flex sch" id="idx-1">
-      <div className="mx-auto max-w-4xl px-5 my-24 relative">
+      <div className="mx-auto max-w-4xl px-5 my-8 relative">
         <div className="flex-col">
           <div className="absolute bg-maxblue h-2 w-44 -z-10 mt-6 ml-8 opacity-70"></div>
           <h1 className="font-bold text-4xl m-8"> About me</h1>
@@ -28,7 +28,7 @@ const App = () => (
           <p className="font-light text-lg ml-8 mt-4">{PART_3}</p>
           <p className="font-light text-lg ml-8 mt-4">{PART_4}</p>
 
-          <div className="mt-40">
+          <div className="mt-8">
             <Arrow dark={false} index="idx-2" color="#62B6CB"></Arrow>
           </div>
         </div>
@@ -36,7 +36,7 @@ const App = () => (
     </div>
 
     <div className="sch flex bg-grr text-whit min-w-min w-full" id="idx-2">
-      <div className="mx-auto max-w-4xl px-5 my-24 relative">
+      <div className="mx-auto max-w-4xl px-5 my-8 relative">
         <div className="w-full">
           <div className="flex-col">
             <div className="absolute bg-rajah h-2 w-52 mt-7 ml-8 opacity-90"></div>
@@ -72,7 +72,7 @@ const App = () => (
     </div>
 
     <div className="flex min-w-min w-full sch" id="idx-3">
-      <div className="max-w-4xl mx-auto my-24 px-5">
+      <div className="max-w-4xl mx-auto my-8 px-5">
         <div className="flex-col">
           <div className="absolute bg-violet h-2 w-48 -z-10 mt-7 ml-8 opacity-70"></div>
           <h1 className="font-bold text-4xl m-8"> Formation </h1>
@@ -100,7 +100,7 @@ const App = () => (
     </div>
 
     <div className="sch flex bg-grr text-whit" id="idx-4">
-      <div className="mx-auto max-w-4xl px-5 my-16 relative text-center">
+      <div className="mx-auto max-w-4xl px-5 my-8 relative text-center">
         <div className="lg:flex sm:flex-wrap w-fit-content">
           <div className="flex-col px-12 lg:w-1/2 sm:w-auto">
             <h1 className="font-bold lg:text-4xl sm:text-2xl m-8 z-0 relative cunderline w-max mx-auto">
@@ -151,12 +151,6 @@ const App = () => (
             <h2 className="lg:text-xl sm:text-sm mt-8 font-bold"> Films </h2>
             <p className="font-light mt-4 lg:text-base sm:text-sm">
               Love watching films (The Prestige's my favourite one)
-            </p>
-
-            <h2 className="text-xl mt-8 font-bold "> Video Games </h2>
-            <p className="font-light mt-4 lg:text-base sm:text-sm">
-              League of Legends, Rainbow 6, mostly games where teamplay is
-              necessary
             </p>
           </div>
         </div>
