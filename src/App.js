@@ -56,7 +56,7 @@ const App = () => (
             job_title="Blend editor"
             start_d="August 2021"
             end_d="September 2021"
-            job_description="Creation and edition of blends (Blendr.io | Saas Automation Application) for Qollabi"
+            job_description="Creation and edition of blends (Blendr.io | Saas Automation Application) for Qollabi."
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
