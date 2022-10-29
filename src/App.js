@@ -116,9 +116,7 @@ const App = () => (
             <div className="my-4 bg-whit h-4 m opacity-90 rounded-sm relative w-full mx-auto">
               <div className="my-4 bg-crayola h-4 m opacity-90 rounded-sm relative w-3/4"></div>
             </div>
-            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold">
-              Nederlands
-            </h2>
+            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold">Dutch</h2>
             <div className="my-4 bg-whit h-4 m opacity-90 rounded-sm relative w-full mx-auto">
               <div className="my-4 bg-crayola h-4 m opacity-90 rounded-sm relative w-2/5"></div>
             </div>
