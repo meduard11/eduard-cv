@@ -60,7 +60,7 @@ const App = () => (
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
-            job_title="Technicien de maintenance maison de retraite"
+            job_title="Maintenance technician for a retirement home"
             start_d="July 2022"
             end_d="August 2022"
             job_description="I was in charge of the maintenance of a retirement home, my tasks included : - Finding a solution to the technical breakdown that there could be in the building (blocked door/lock, broken appliance, broken switch or lamp, broken furniture, etc.) - Receiving deliveries and storing in the storerooms. - Management of the garden. I was alone throughout the day and had to organize my tasks myself."
@@ -104,7 +104,7 @@ const App = () => (
         <div className="lg:flex sm:flex-wrap w-fit-content">
           <div className="flex-col px-12 lg:w-1/2 sm:w-auto">
             <h1 className="font-bold lg:text-4xl sm:text-2xl m-8 z-0 relative cunderline w-max mx-auto">
-              Langues
+              Languages
             </h1>
             <h2 className="lg:text-xl sm:text-sm mt-12 font-bold "> French </h2>
             <div className="my-4 bg-crayola h-4 m opacity-90 rounded-sm relative w-full mx-auto px-2"></div>
