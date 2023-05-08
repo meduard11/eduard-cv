@@ -49,7 +49,7 @@ const App = () => (
             job_title="Front-end Developer Digitalu"
             start_d="August 2021"
             end_d="September 2021"
-            job_description="React JS and Typescript frontend developement from Figma design sheets full-time."
+            job_description="React JS and Typescript frontend developement from Figma design sheets (using Tailwind Css)."
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
@@ -60,10 +60,10 @@ const App = () => (
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
-            job_title="Maintenance technician for a retirement home"
-            start_d="July 2022"
-            end_d="August 2022"
-            job_description="I was in charge of the maintenance of a retirement home, my tasks included : - Finding a solution to the technical breakdown that there could be in the building (blocked door/lock, broken appliance, broken switch or lamp, broken furniture, etc.) - Receiving deliveries and storing in the storerooms. - Management of the garden. I was alone throughout the day and had to organize my tasks myself."
+            job_title="Fullstack developer & Data Science Internship"
+            start_d="February 2023"
+            end_d="May 2023"
+            job_description="Road traffic prediction based on synthetic data and synthetic data generation. I developed in python a highway traffic simulator that generated data, then used the data generated to train and test two models I had also developed, one being a Random Forest and the other a Recurrent Neural Network (GRU)."
             title_color="text-rajah"
           ></ExperienceBox>
         </div>
