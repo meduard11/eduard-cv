@@ -26,7 +26,6 @@ const App = () => (
           <p className="font-light text-lg lg:ml-8 sm:mx-auto">{PART_1}</p>
           <p className="font-light text-lg lg:ml-8 sm:mx-auto mt-4">{PART_2}</p>
           <p className="font-light text-lg lg:ml-8 sm:mx-auto mt-4">{PART_3}</p>
-          <p className="font-light text-lg lg:ml-8 sm:mx-auto mt-4">{PART_4}</p>
 
           <div className="mt-8">
             <Arrow dark={false} index="idx-2" color="#62B6CB"></Arrow>
