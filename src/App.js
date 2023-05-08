@@ -10,9 +10,6 @@ A bit more about my personal life: I am the youngest of three brothers (22 and 2
 
 const PART_3 = `I love everything about computers and am open to learn new things, that's what I like the most, because progress never stops and you never get bored. I am also somewhat creative (this design is not a template nor inspired by another site) but I don't feel the need for an artistic job as these needs are already fulfilled by my hobbies`;
 
-const PART_4 = `The internship must take place every working day (Monday to Friday inclusive) of
-every week starting week 1 of the 2nd
-(February 1, 2023) for 15 weeks.`;
 
 const App = () => (
   <>
@@ -80,7 +77,7 @@ const App = () => (
           job_title="Informatique de gestion - Paul Lambin"
           start_d="September 2020"
           end_d="Now"
-          job_description="Algorithms & Data Structures - Html & Css - PHP - PostgreSQL - Python - Java - Java Spring - Javascript  - React Js - Express Js - Flutter - Kotlin - .NET - C - C# - Assembly - Machine Learning (Python Scikit-learn) -  UML - Agile Methodology - Linux - Azure Devops "
+          job_description="Algorithms & Data Structures - Html & Css - PHP - PostgreSQL - Python - Java - Java Spring - Javascript  - React Js - Express Js - Flutter - Kotlin - .NET - C - C# - Assembly - Machine Learning (Python Scikit-learn, pytorch) -  UML - Agile Methodology - Linux - Azure Devops - Docker, Ansible, Terraform"
         ></ExperienceBox>
         <ExperienceBox
           job_title="Sciences informatiques - ULB"
