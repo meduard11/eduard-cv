@@ -3,7 +3,7 @@ import { ExperienceBox } from "./components/ExperienceBox";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 
-const PART_1 = `I'm Eduard Mihaila, 21 years old, a web development student looking for an internship in web development. Since I became passionate about coding, my goal has been to be the best at it. I'm someone who loves the challenge and needs that to live, I'm competitive at heart and enjoy working in a team. 
+const PART_1 = `I'm Eduard Mihaila, 21 years old, a web development student. Since I became passionate about coding, my goal has been to be the best at it. I'm someone who loves the challenge and needs that to live, I'm competitive at heart and enjoy working in a team. 
   `;
 const PART_2 = `
 A bit more about my personal life: I am the youngest of three brothers (22 and 23 years old), I am of Romanian origin and I am a rather sociable person. I am also curious and I like to learn new (mindblowing) things.`;
