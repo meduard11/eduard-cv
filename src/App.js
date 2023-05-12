@@ -42,7 +42,7 @@ const App = () => (
             </h1>
           </div>
           <ExperienceBox
-            job_title="Front-end Developer Digitalu"
+            job_title="Front-end Developer at Digitalu"
             start_d="August 2021"
             end_d="September 2021"
             job_description="React JS and Typescript frontend developement from Figma design sheets (using Tailwind Css)."
@@ -56,7 +56,7 @@ const App = () => (
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
-            job_title="Fullstack Developer & Data Science (Internship)"
+            job_title="Fullstack Developer & Data Science at NTT (Internship)"
             start_d="February 2023"
             end_d="May 2023"
             job_description="Road traffic prediction based on synthetic data and synthetic data generation. I developed in python a highway traffic simulator that generated data, then used the data generated to train and test two models I had also developed, one being a Random Forest and the other a Recurrent Neural Network (GRU)."
