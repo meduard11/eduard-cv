@@ -74,7 +74,7 @@ const App = () => (
           <h1 className="font-bold text-4xl m-8"> Formation </h1>
         </div>
         <ExperienceBox
-          job_title="Informatique de gestion - Paul Lambin"
+          job_title="Informatique de gestion - Institut Paul Lambin"
           start_d="September 2020"
           end_d="Now"
           job_description="Algorithms & Data Structures - Html & Css - PHP - PostgreSQL - Python - Java - Java Spring - Javascript  - React Js - Express Js - Flutter - Kotlin - .NET - C - C# - Assembly - Machine Learning (Python Scikit-learn, pytorch) -  UML - Agile Methodology - Linux - Azure Devops - Docker, Ansible, Terraform"
