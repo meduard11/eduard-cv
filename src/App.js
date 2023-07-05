@@ -3,14 +3,12 @@ import { ExperienceBox } from "./components/ExperienceBox";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 
-const PART_1 = `I'm Eduard Mihaila, 22 years old, a web development student. Since I became passionate about coding, my goal has been to be the best at it. I'm someone who loves the challenge and needs that to live, I'm competitive at heart and enjoy working in a team. 
-  `;
-const PART_2 = `
-A bit more about my personal life: I am the youngest of three brothers (22 and 23 years old), I am of Romanian origin and I am a rather sociable person. I am also curious and I like to learn new (mindblowing) things.`;
+const PART_1 = `I'm Eduard , 22 years old, passionate about new technologies and computer science. I’m a rather sociable person who loves sharing about my passion and learning from other people experiences. I am hard-working, curious and eager to discover new things.
+I also have excellent communication and presentation skills which makes things a lot easier while working in a team.`
 
-const PART_3 = `I love everything about computers and am open to learn new things, that's what I like the most, because progress never stops and you never get bored. I am also somewhat creative (this design is not a template nor inspired by another site) but I don't feel the need for an artistic job as these needs are already fulfilled by my hobbies`;
+const PART_2 = `A bit more personal, I am the youngest of three brothers which are 23 and 24. I also have good stress management skills thanks to the fact that I am used to play music in front of an audience. Since childhood, I've always had a facility for learning faster than the average in any field, which has given me a lot of self-confidence but also the bad habit of leaning on what I've learnt. `
 
-
+const PART_3 = `I'm now looking for a job that will allow me to improve my technical skills but also to grow as a person and fulfil my need to learn new things in any field.`
 const App = () => (
   <>
     <NavBar> </NavBar>
@@ -102,17 +100,17 @@ const App = () => (
             <h1 className="font-bold lg:text-4xl sm:text-2xl m-8 z-0 relative cunderline w-max mx-auto">
               Languages
             </h1>
-            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold "> French </h2>
+            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold "> French (C1) </h2>
             <div className="my-4 bg-crayola h-4 m opacity-90 rounded-sm relative w-full mx-auto px-2"></div>
-            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold ">Romanian</h2>{" "}
+            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold ">Romanian (C1)</h2>{" "}
             <div className="my-4 bg-whit h-4 m opacity-90 rounded-sm relative w-full mx-auto">
               <div className="my-4 bg-crayola h-4 m opacity-90 rounded-sm relative w-full"></div>
             </div>
-            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold"> English </h2>
+            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold"> English (B2) </h2>
             <div className="my-4 bg-whit h-4 m opacity-90 rounded-sm relative w-full mx-auto">
               <div className="my-4 bg-crayola h-4 m opacity-90 rounded-sm relative w-3/4"></div>
             </div>
-            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold">Dutch</h2>
+            <h2 className="lg:text-xl sm:text-sm mt-12 font-bold">Dutch (B1) </h2>
             <div className="my-4 bg-whit h-4 m opacity-90 rounded-sm relative w-full mx-auto">
               <div className="my-4 bg-crayola h-4 m opacity-90 rounded-sm relative w-2/5"></div>
             </div>
