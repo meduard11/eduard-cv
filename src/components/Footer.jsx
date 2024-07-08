@@ -1,6 +1,5 @@
 import mail from '../images/mail.svg'
 import phone from '../images/phone.svg'
-import loc from '../images/location-marker.svg'
 import insta from '../images/insta.svg'
 import git from "../images/git.png"
 import linkedin from '../images/linkedin.svg'
