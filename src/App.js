@@ -45,14 +45,14 @@ const App = () => (
             job_title="Salesforce Consultant at Novera"
             start_d="September 2023"
             end_d="Now"
-            job_description={`As a Salesforce Consultant, I am in charge of technical analysis and implementation of business requirements. My role was : \n\n - Understanding business requirements and translate them into technical user stories. \n - Choose the most Salesforce standard way of fullfiling the requirements. \n - Implement and deploy using git & Azure Devops the changes in production environement. \n - Advise the customer on Salesforce usage best practices, capabilities and new features.`}
+            job_description={`As a Salesforce Consultant, I am in charge of technical analysis and implementation of business requirements. My role was: \n\n - Understanding business requirements and translate them into technical user stories. \n - Choose the most Salesforce standard way of fulfilling the requirements. \n - Implement and deploy using git & Azure Devops the changes in production environment. \n - Advise the customer on Salesforce usage best practices, capabilities and new features.`}
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
             job_title="Web & mobile developer - Freelance"
             start_d="April 2024"
             end_d="Now"
-            job_description={`Since April 2024 I became complementary freelance. I worked for 2 diferent customers since then : \n\n - Implementing an IOS app that generates AI songs based on user input (React Native & Go). \n - Design and implementation of a showcase website for a carpentry business (React Js, Figma, Html & Css).`}
+            job_description={`Since April 2024 I became complementary freelance. I have worked for 2 different customers since then: \n\n - Implementing an IOS app that generates AI songs based on user input (React Native & Go). \n - Design and implementation of a showcase website for a carpentry business (React Js, Figma, Html & Css).`}
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
