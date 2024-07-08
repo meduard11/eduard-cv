@@ -10,7 +10,7 @@ My strengths include excellent communication and presentation skills, which faci
 const PART_2 = `A bit more personal, I am the youngest of three brothers. 
 I also have good stress management skills thanks to the fact that I am used to play music in front of an audience. I am eager to further develop my technical skills while continually learning in new fields.`
 
-const PART_3 = `I'm now looking for a job that will allow me to grow as a person and fulfil my need for new challengess.`
+const PART_3 = `I'm now looking for a job that will allow me to grow as a person and fulfil my need for new challenges.`
 const App = () => (
   <>
     <NavBar> </NavBar>
