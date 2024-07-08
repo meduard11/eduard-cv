@@ -35,7 +35,7 @@ export const NavBar = () => {
           />
           <NavBarItem
             color={ORANGE}
-            desc="Experience"
+            desc="Experiences"
             onClick={() => scrollHandler("idx-2")}
           />
           <NavBarItem
@@ -45,7 +45,7 @@ export const NavBar = () => {
           />
           <NavBarItem
             color={RED}
-            desc="Langue"
+            desc="Languages"
             onClick={() => scrollHandler("idx-4")}
           />
         </div>

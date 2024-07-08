@@ -3,12 +3,14 @@ import { ExperienceBox } from "./components/ExperienceBox";
 import { Footer } from "./components/Footer";
 import { NavBar } from "./components/NavBar";
 
-const PART_1 = `I'm Eduard , 22 years old, passionate about new technologies and computer science. I’m a rather sociable person who loves sharing about my passion and learning from other people experiences. I am hard-working, curious and eager to discover new things.
-I also have excellent communication and presentation skills which makes things a lot easier while working in a team.`
+const PART_1 = `I am a Eduard, passionate about new technologies and computer science. Sociable and enthusiastic about sharing my passions, 
+I am dedicated to learning from others and contributing to team efforts. 
+My strengths include excellent communication and presentation skills, which facilitate effective teamwork.`
 
-const PART_2 = `A bit more personal, I am the youngest of three brothers which are 23 and 24. I also have good stress management skills thanks to the fact that I am used to play music in front of an audience. Since childhood, I've always had a facility for learning faster than the average in any field, which has given me a lot of self-confidence but also the bad habit of leaning on what I've learnt. `
+const PART_2 = `A bit more personal, I am the youngest of three brothers. 
+I also have good stress management skills thanks to the fact that I am used to play music in front of an audience. I am eager to further develop my technical skills while continually learning in new fields.`
 
-const PART_3 = `I'm now looking for a job that will allow me to improve my technical skills but also to grow as a person and fulfil my need to learn new things in any field.`
+const PART_3 = `I'm now looking for a job that will allow me to grow as a person and fulfil my need for new challengess.`
 const App = () => (
   <>
     <NavBar> </NavBar>
@@ -40,17 +42,17 @@ const App = () => (
             </h1>
           </div>
           <ExperienceBox
-            job_title="Front-end Developer at Digitalu"
-            start_d="August 2021"
-            end_d="September 2021"
-            job_description="React JS and Typescript frontend developement from Figma design sheets (using Tailwind Css)."
+            job_title="Salesforce Consultant at Novera"
+            start_d="September 2023"
+            end_d="Now"
+            job_description={`As a Salesforce Consultant, I am in charge of technical analysis and implementation of business requirements. My role was : \n\n - Understanding business requirements and translate them into technical user stories. \n - Choose the most Salesforce standard way of fullfiling the requirements. \n - Implement and deploy using git & Azure Devops the changes in production environement. \n - Advise the customer on Salesforce usage best practices, capabilities and new features.`}
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
-            job_title="Blend editor"
-            start_d="August 2021"
-            end_d="September 2021"
-            job_description="Creation and edition of blends (Blendr.io | Saas Automation Application) for Qollabi."
+            job_title="Web & mobile developer - Freelance"
+            start_d="April 2024"
+            end_d="Now"
+            job_description={`Since April 2024 I became complementary freelance. I worked for 2 diferent customers since then : \n\n - Implementing an IOS app that generates AI songs based on user input (React Native & Go). \n - Design and implementation of a showcase website for a carpentry business (React Js, Figma, Html & Css).`}
             title_color="text-rajah"
           ></ExperienceBox>
           <ExperienceBox
@@ -58,6 +60,13 @@ const App = () => (
             start_d="February 2023"
             end_d="May 2023"
             job_description="Road traffic prediction based on synthetic data and synthetic data generation. I developed in python a highway traffic simulator that generated data, then used the data generated to train and test two models I had also developed, one being a Random Forest and the other a Recurrent Neural Network (GRU)."
+            title_color="text-rajah"
+          ></ExperienceBox>
+          <ExperienceBox
+            job_title="Front-end Developer at Digitalu"
+            start_d="August 2021"
+            end_d="September 2021"
+            job_description="React JS and Typescript frontend development from Figma design sheets using Tailwind CSS."
             title_color="text-rajah"
           ></ExperienceBox>
         </div>
